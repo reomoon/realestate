@@ -1,7 +1,7 @@
 import requests
 import json
 import pandas as pd
-from common import cookie, header
+from common import *
 
 # 가격을 억 단위로 변환하여 정렬할 수 있도록 하는 함수
 def convert_to_number(price_str):
@@ -22,9 +22,8 @@ def convert_to_number(price_str):
     except ValueError:
         return 0, 0  # 값 변환이 안되면 0으로 처리
 
-# API 요청
-response = requests.get(
-    'https://new.land.naver.com/api/articles/complex/125101?realEstateType=APT%3AABYG%3AJGC%3APRE&tradeType=A1&tag=%3A%3A%3A%3A%3A%3A%3A%3A%3A&rentPriceMin=0&rentPriceMax=900000000&priceMin=0&priceMax=900000000&areaMin=0&areaMax=900000000&oldBuildYears&recentlyBuildYears&minHouseHoldCount&maxHouseHoldCount&showArticle=false&sameAddressGroup=false&minMaintenanceCost&maxMaintenanceCost&page=1&complexNo=125101&buildingNos=&areaNos=1&type=list&order=rank',
+# API 요청 common에서 참조
+response = requests.get(gaeyang, bongdam1,
     cookies = cookie,  # 요청에 필요한 쿠키와 헤더 설정(common 참조)
     headers = header,
 )
