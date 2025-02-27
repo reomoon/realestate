@@ -31,6 +31,9 @@ def fetch_data(urls):
             try:
                 data = response.json()
 
+                # 응답 구조를 출력하여 실제 데이터를 확인
+                # print(json.dumps(data, indent=4))  # JSON 전체를 출력하여 어떤 구조인지 확인(Debug)
+
                 if 'articleList' in data:
                     for article in data['articleList']:  
                         all_data.append({
@@ -38,6 +41,7 @@ def fetch_data(urls):
                             "articleName": article.get('articleName'),
                             "dealOrWarrantPrc": article.get('dealOrWarrantPrc'),
                             "buildingName": article.get('buildingName'),
+                            "area2": article.get('area2'),
                             "floorInfo": article.get('floorInfo'),
                             "direction": article.get('direction'),
                             "articleConfirmYmd": article.get('articleConfirmYmd'),
@@ -53,7 +57,7 @@ def fetch_data(urls):
     return all_data
 
 # API URL 목록
-urls = [gaeyang, bongdam1, bongdam2]
+urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam]
 
 # 데이터 가져오기
 all_articles = fetch_data(urls)
@@ -78,8 +82,9 @@ html_content = ""
 prev_article_name = None
 
 for _, row in df.iterrows():
-    main_info = f"{row['dealOrWarrantPrc']} | {row['buildingName']} {row['floorInfo']} {row['direction']} {row['articleConfirmYmd']}"
+    main_info = f"{row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']}  {row['direction']} {row['articleConfirmYmd']}"
     
+    # articleName이 바뀌었을 때, 새로운 그룹 헤더 추가
     if row["articleName"] != prev_article_name:
         html_content += f"""
         <tr class="group-header">
@@ -88,6 +93,7 @@ for _, row in df.iterrows():
         """
         prev_article_name = row["articleName"]
 
+    # 주요 정보와 상세 정보 추가
     html_content += f"""
     <tr>
         <td>{main_info}</td>

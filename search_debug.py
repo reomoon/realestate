@@ -34,7 +34,7 @@ if response.status_code == 200:
         data = response.json()
         
         # 응답 구조를 출력하여 실제 데이터를 확인
-        # print(json.dumps(data, indent=4))  # JSON 전체를 출력하여 어떤 구조인지 확인
+        print(json.dumps(data, indent=4))  # JSON 전체를 출력하여 어떤 구조인지 확인
         
         # 예시: 'articleList'라는 배열 안에 article 정보들이 포함된 경우
         if 'articleList' in data:
