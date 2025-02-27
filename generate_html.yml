@@ -2,7 +2,7 @@ name: Generate HTML and Deploy
 
 on:
   schedule:
-    - cron: '11'  # 매시간 실행 (필요에 맞게 변경 가능)
+    - cron: '0 * * * *'  # 매시간 실행
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
@@ -16,19 +16,17 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.11'  # 사용 중인 버전에 맞춰 변경
+          python-version: '3.11'  # 원하는 Python 버전으로 설정
 
       - name: Install dependencies
         run: |
           pip install -r requirements.txt  # 필요한 라이브러리 설치
 
       - name: Run Python script
-        run: python script.py  # HTML 생성하는 Python 스크립트 실행
+        run: python script.py  # `script.py` 실행
 
-      - name: Commit and Push changes
-        run: |
-          git config --global user.name "github-actions"
-          git config --global user.email "github-actions@github.com"
-          git add articles_sorted.html
-          git commit -m "Auto-update HTML file" || echo "No changes to commit"
-          git push
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./  # HTML 파일이 있는 디렉토리
