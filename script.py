@@ -71,12 +71,16 @@ df = df.sort_values(by=['articleName', 'billions', 'remainder'])
 df['link'] = df['articleNo'].apply(lambda x: f'<a href="https://m.land.naver.com/article/info/{x}" target="_blank">바로가기</a>' if pd.notna(x) else '')
 
 # 불필요한 컬럼 제거
-df.drop(columns=['billions', 'remainder'], inplace=True)
+df.drop(columns=['articleNo', 'billions', 'remainder'], inplace=True)
 
 # HTML 변환 (링크 포함)
-html_content = df.to_html(index=False, escape=False)
+html_content = df.to_html(index=False, escape=False, table_id="articlesTable")
 
-# HTML 파일 생성
+# articleName 목록을 추출하여 드롭다운 옵션 생성
+article_names = df['articleName'].unique()
+dropdown_options = ''.join([f'<option value="{name}">{name}</option>' for name in article_names])
+
+# HTML에 드롭다운과 JavaScript 추가
 html_with_styles = f"""
 <!DOCTYPE html>
 <html lang="ko">
@@ -85,10 +89,35 @@ html_with_styles = f"""
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Articles</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script>
+        function filterByArticleName() {{
+            var selectedValue = document.getElementById("articleNameFilter").value;
+            var rows = document.getElementById("articlesTable").getElementsByTagName("tr");
+            for (var i = 1; i < rows.length; i++) {{
+                var row = rows[i];
+                var articleName = row.cells[0].innerText;
+                if (selectedValue === "" || articleName === selectedValue) {{
+                    row.style.display = "";
+                }} else {{
+                    row.style.display = "none";
+                }}
+            }}
+        }}
+    </script>
 </head>
 <body>
     <h2>Real Estate</h2>
+
+    <!-- 드롭다운 필터 추가 -->
+    <label for="articleNameFilter">Article Name Filter:</label>
+    <select id="articleNameFilter" onchange="filterByArticleName()">
+        <option value="">모든 항목</option>
+        {dropdown_options}
+    </select>
+
+    <!-- 테이블 -->
     {html_content}
+
 </body>
 </html>
 """
