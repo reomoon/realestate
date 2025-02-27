@@ -151,14 +151,16 @@ html_with_styles = f"""
     </script>
 </head>
 <body>
+<div class="filter-container">
     <h2>Real Estate</h2>
-
-    <!-- 드롭다운 필터 추가 -->
-    <label for="articleNameFilter">Article Name Filter:</label>
-    <select id="articleNameFilter" onchange="filterByArticleName()">
-        <option value="">모든 항목</option>
-        {dropdown_options}
-    </select>
+    <div class="dropdown-filter">
+        <label for="articleNameFilter">Filter:</label>
+        <select id="articleNameFilter" onchange="filterByArticleName()">
+            <option value="">모든 항목</option>
+            {dropdown_options}
+        </select>
+    </div>
+</div>
 
     <!-- 테이블 -->
     {html_table}

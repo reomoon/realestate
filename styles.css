@@ -1,35 +1,92 @@
-/* 테이블 스타일 */
+/* 기본 테이블 스타일 */
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* 헤더 스타일 */
+tr:first-child td {
+    background-color: #007bff;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+/* 일반 행 스타일 */
 td {
     border: 1px solid #ddd;
-    padding: 10px;
+    padding: 12px;
     text-align: left;
-    word-wrap: break-word; /* 내용이 넘치면 줄바꿈 */
+    word-break: break-word;
 }
 
-/* 첫 번째 줄은 기본 스타일 */
-tr:first-child td {
+/* 짝수 행 배경색 */
+tr:nth-child(even) td {
     background-color: #f9f9f9;
-    font-weight: bold;
+}
+
+/* 호버 효과 */
+tr:hover td {
+    background-color: #eaf2ff;
 }
 
 /* 두 번째 줄 스타일 */
 .details-row td {
+    background-color: #f1f1f1;
     font-size: 0.9em;
+    color: #555;
+}
+
+/* 제목과 필터를 한 줄에 정렬 */
+.filter-container {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: space-between; /* 필요하면 변경 */
+    width: 100%; /* 부모 컨테이너 크기 조정 */
+    max-width: 800px; /* 필요하면 제한 */
+    margin-bottom: 10px; /* 필터와 아래 요소 간격 */
+}
+
+/* 제목 스타일 */
+.filter-container h2 {
+    margin: 0; /* 기본 마진 제거 */
+    white-space: nowrap; /* 제목이 너무 길어도 줄바꿈 방지 */
+}
+
+/* 필터 스타일 */
+.dropdown-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* 라벨과 드롭다운 사이 간격 */
+}
+
+/* 드롭다운 스타일 */
+.dropdown-filter select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 반응형 - 화면이 좁아지면 세로 정렬 */
+@media (max-width: 600px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
 }
 
 /* 모바일 최적화 */
 @media (max-width: 768px) {
-    td {
-        display: block;
+    .table-container {
         width: 100%;
+        overflow-x: auto;
     }
 
-    .details-row td {
-        border-bottom: 2px solid #ccc;
-    }
-}
+    table {
+        width: 100%;
+   
