@@ -154,9 +154,8 @@ html_with_styles = f"""
 <div class="filter-container">
     <h2>Real Estate</h2>
     <div class="dropdown-filter">
-        <label for="articleNameFilter">Filter:</label>
         <select id="articleNameFilter" onchange="filterByArticleName()">
-            <option value="">모든 항목</option>
+            <option value="">전체</option>
             {dropdown_options}
         </select>
     </div>
