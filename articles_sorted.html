@@ -10,16 +10,19 @@
         .group-header {
             background-color: #A6A6A6;
             color: white;
-            font-size: 18px;
+            font-size: 16px;
             padding: 8px;
         }
         td {
             padding: 10px;
             border-bottom: 1px solid #ddd;
         }
-        .details-row {
-            background-color: #f9f9f9;
+        /* 3번째와 4번째 행에만 배경색 적용: 즉, 1~2행은 흰색, 3~4행은 f9f9f9, 5~6행은 흰색, 7~8행은 f9f9f9 등 */
+        .details-row:nth-child(4n-1) td,
+        .details-row:nth-child(4n) td {
+            background-color: #f9f9f9 !important;
         }
+        
     </style>
     <script>
         function filterByArticleName() {
@@ -39,7 +42,7 @@
     </script>
 </head>
 <body>
-    <h2>Real Estate</h2>
+    <h3>Real Estate</h3>
 
     <!-- 드롭다운 필터 추가 -->
     <label for="articleNameFilter">Article Name Filter:</label>
@@ -121,10 +124,10 @@
     </tr>
     
     <tr>
-        <td>3억 8,000 | 112동 18/29 남향 20250226</td>
+        <td>3억 8,000 | 112동 18/29 남향 20250227</td>
     </tr>
     <tr class="details-row">
-        <td>실입주가능, 시스템에어컨2,중문, 작전역, BRT노선가능, 정남향 | <a href="https://m.land.naver.com/article/info/2510460169" target="_blank">바로가기</a></td>
+        <td>실입주가능, 시스템에어컨2,중문, 정수기, 정남향 | <a href="https://m.land.naver.com/article/info/2510500668" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -135,10 +138,24 @@
     </tr>
     
     <tr>
+        <td>3억 8,000 | 112동 18/29 남향 20250226</td>
+    </tr>
+    <tr class="details-row">
+        <td>실입주가능, 시스템에어컨2,중문, 작전역, BRT노선가능, 정남향 | <a href="https://m.land.naver.com/article/info/2510460169" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
         <td>3억 8,000 | 112동 중/29 남향 20250214</td>
     </tr>
     <tr class="details-row">
         <td>실입주, 에어컨2, 중문, 전자계약 | <a href="https://m.land.naver.com/article/info/2508008851" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>4억 | 112동 28/29 남향 20250227</td>
+    </tr>
+    <tr class="details-row">
+        <td>실거주.에어컨2. | <a href="https://m.land.naver.com/article/info/2510495443" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -153,13 +170,6 @@
     </tr>
     <tr class="details-row">
         <td>작전역 8분거리, 고층뷰, 개방감 좋음 | <a href="https://m.land.naver.com/article/info/2507856512" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
-        <td>4억 | 112동 28/29 남향 20250205</td>
-    </tr>
-    <tr class="details-row">
-        <td>실거주.에어컨2. | <a href="https://m.land.naver.com/article/info/2505830949" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -190,13 +200,6 @@
         <td>남향, 채광좋은 인기판상형, 입주협의가능 | <a href="https://m.land.naver.com/article/info/2505526841" target="_blank">바로가기</a></td>
     </tr>
     
-    <tr>
-        <td>4억 1,000 | 112동 22/29 남향 20250131</td>
-    </tr>
-    <tr class="details-row">
-        <td>실입주, 주인거주, 벽걸이에어컨1, 작전역가까운동 | <a href="https://m.land.naver.com/article/info/2504983669" target="_blank">바로가기</a></td>
-    </tr>
-    
         <tr class="group-header">
             <td colspan="2"><strong>e편한세상신봉담</strong></td>
         </tr>
@@ -209,17 +212,24 @@
     </tr>
     
     <tr>
-        <td>3억 5,000 | 105동 6/25 남동향 20250225</td>
-    </tr>
-    <tr class="details-row">
-        <td>뷰 예쁜 집, 즉시 입주가능 | <a href="https://m.land.naver.com/article/info/2510164390" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
         <td>3억 5,000 | 105동 6/25 남동향 20250226</td>
     </tr>
     <tr class="details-row">
         <td>즉시입주가능,깨끗한집,방3개,조용한 예쁜단지뷰 입니다. | <a href="https://m.land.naver.com/article/info/2510438411" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>4억 2,000 | 107동 3/22 남서향 20250227</td>
+    </tr>
+    <tr class="details-row">
+        <td>즉시입주가능,시스템에어컨3대,방확장,오븐,인덕션,중문 | <a href="https://m.land.naver.com/article/info/2510490481" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>4억 2,000 | 107동 3/22 남서향 20250227</td>
+    </tr>
+    <tr class="details-row">
+        <td>시에3대,중문,인덕션,오븐,식세기,냉동고,주인거주로관리잘된집 | <a href="https://m.land.naver.com/article/info/2510494766" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -240,7 +250,14 @@
         <td>4억 2,000 | 105동 13/25 남동향 20250225</td>
     </tr>
     <tr class="details-row">
-        <td>I 날짜 가격 협의 가능 I 방2개 거실확장 I 중문 I 탄성 I 방충망 | <a href="https://m.land.naver.com/article/info/2510167570" target="_blank">바로가기</a></td>
+        <td>중문, 탄성, 관리 잘된집,  확장형 | <a href="https://m.land.naver.com/article/info/2510188502" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>4억 2,000 | 107동 3/22 남서향 20250226</td>
+    </tr>
+    <tr class="details-row">
+        <td>시에3대, 중문, 냉장냉동고김냉, 식세기. 인덕션, 오븐 | <a href="https://m.land.naver.com/article/info/2510386912" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -251,24 +268,10 @@
     </tr>
     
     <tr>
-        <td>4억 2,000 | 105동 13/25 남동향 20250225</td>
-    </tr>
-    <tr class="details-row">
-        <td>중문, 탄성, 관리 잘된집,  확장형 | <a href="https://m.land.naver.com/article/info/2510188502" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
         <td>4억 2,000 | 107동 3/22 남서향 20250225</td>
     </tr>
     <tr class="details-row">
         <td>관리잘된집, 확장형, 시스템에어컨3, 인덕션, 오븐, 냉동고, 식기세척기 | <a href="https://m.land.naver.com/article/info/2510186963" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
-        <td>4억 2,000 | 107동 3/22 남서향 20250226</td>
-    </tr>
-    <tr class="details-row">
-        <td>시에3대, 중문, 냉장냉동고김냉, 식세기. 인덕션, 오븐 | <a href="https://m.land.naver.com/article/info/2510386912" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -289,14 +292,14 @@
         <td>4억 3,000 | 106동 4/19 남동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>트인 전망, 식세기. 중문.줄눈, 화담중,화담고 학세권 | <a href="https://m.land.naver.com/article/info/2510385439" target="_blank">바로가기</a></td>
+        <td>햇살좋은집,식기세척기,중문,줄눈,주인거주관리상태좋아요 | <a href="https://m.land.naver.com/article/info/2510411657" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
         <td>4억 3,000 | 106동 4/19 남동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>햇살좋은집,식기세척기,중문,줄눈,주인거주관리상태좋아요 | <a href="https://m.land.naver.com/article/info/2510411657" target="_blank">바로가기</a></td>
+        <td>트인 전망, 식세기. 중문.줄눈, 화담중,화담고 학세권 | <a href="https://m.land.naver.com/article/info/2510385439" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -307,17 +310,17 @@
     </tr>
     
     <tr>
-        <td>4억 4,500 | 104동 12/25 남서향 20250225</td>
-    </tr>
-    <tr class="details-row">
-        <td>시스템에어컨2, 중문, 줄눈, 탄성, 인덕션, 방2 확장형 | <a href="https://m.land.naver.com/article/info/2510186243" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
         <td>4억 5,000 | 102동 23/25 남서향 20250226</td>
     </tr>
     <tr class="details-row">
         <td>.강.력.추.천. 로얄동 로얄층 빠른입주가능 2in1에어컨  중앙단지뷰 | <a href="https://m.land.naver.com/article/info/2510402449" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>4억 5,000 | 102동 23/25 남서향 20250227</td>
+    </tr>
+    <tr class="details-row">
+        <td>입구동,햇살좋은집,입주일협의가능 | <a href="https://m.land.naver.com/article/info/2510483077" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -349,6 +352,13 @@
         <td>3억 7,300 | 601동 6/20 동향 20250226</td>
     </tr>
     <tr class="details-row">
+        <td>시에3대,중문,탄성코트,줄눈,아일랜드,간접조명,옵션많은집,주인거주로깨끗 | <a href="https://m.land.naver.com/article/info/2510315523" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>3억 7,300 | 601동 6/20 동향 20250226</td>
+    </tr>
+    <tr class="details-row">
         <td>l 급매 l 시스템AC3대 예쁜 화이트톤 인테리어, 3월이후 입주가능 | <a href="https://m.land.naver.com/article/info/2510344918" target="_blank">바로가기</a></td>
     </tr>
     
@@ -363,21 +373,14 @@
         <td>3억 7,300 | 601동 6/20 동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>시에3대,중문,탄성코트,줄눈,아일랜드,간접조명,옵션많은집,주인거주로깨끗 | <a href="https://m.land.naver.com/article/info/2510315523" target="_blank">바로가기</a></td>
+        <td>시에3.식세기.빌트인정수기.중문.탄성.줄눈.미세방충망.팬트리 | <a href="https://m.land.naver.com/article/info/2510307613" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
         <td>3억 7,300 | 601동 6/20 동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>시에3.식세기.빌트인정수기.중문.탄성.줄눈.미세방충망.팬트리 | <a href="https://m.land.naver.com/article/info/2510307613" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
-        <td>3억 7,300 | 601동 6/20 남동향 20250226</td>
-    </tr>
-    <tr class="details-row">
-        <td>급매,시스템에어컨3대,중문,줄눈,간접조명등,상권및학군인접편리,뻥뚫린 뷰 | <a href="https://m.land.naver.com/article/info/2510396887" target="_blank">바로가기</a></td>
+        <td>25년3월입주협의,시스템에어컨3,식기세척기,정수기,중문,줄눈,미세방충망 | <a href="https://m.land.naver.com/article/info/2510309791" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -388,10 +391,10 @@
     </tr>
     
     <tr>
-        <td>3억 7,300 | 601동 6/20 동향 20250226</td>
+        <td>3억 7,300 | 601동 6/20 남동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>25년3월입주협의,시스템에어컨3,식기세척기,정수기,중문,줄눈,미세방충망 | <a href="https://m.land.naver.com/article/info/2510309791" target="_blank">바로가기</a></td>
+        <td>급매,시스템에어컨3대,중문,줄눈,간접조명등,상권및학군인접편리,뻥뚫린 뷰 | <a href="https://m.land.naver.com/article/info/2510396887" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>
@@ -419,13 +422,6 @@
         <td>3억 7,500 | 601동 13/20 동향 20250226</td>
     </tr>
     <tr class="details-row">
-        <td>아침햇살좋은집,식기세척기,인테리어예쁜집 | <a href="https://m.land.naver.com/article/info/2510422065" target="_blank">바로가기</a></td>
-    </tr>
-    
-    <tr>
-        <td>3억 7,500 | 601동 13/20 동향 20250226</td>
-    </tr>
-    <tr class="details-row">
         <td>초급매, 조건협의가능, 입구동으로 생활권 편리동 | <a href="https://m.land.naver.com/article/info/2510308192" target="_blank">바로가기</a></td>
     </tr>
     
@@ -434,6 +430,13 @@
     </tr>
     <tr class="details-row">
         <td>급매,  로얄동 로얄층, 예쁜집 | <a href="https://m.land.naver.com/article/info/2510427967" target="_blank">바로가기</a></td>
+    </tr>
+    
+    <tr>
+        <td>3억 7,500 | 601동 13/20 동향 20250226</td>
+    </tr>
+    <tr class="details-row">
+        <td>아침햇살좋은집,식기세척기,인테리어예쁜집 | <a href="https://m.land.naver.com/article/info/2510422065" target="_blank">바로가기</a></td>
     </tr>
     
     <tr>

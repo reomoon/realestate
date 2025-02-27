@@ -122,7 +122,7 @@ html_with_styles = f"""
         .group-header {{
             background-color: #A6A6A6;
             color: white;
-            font-size: 18px;
+            font-size: 16px;
             padding: 8px;
         }}
         td {{
