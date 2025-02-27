@@ -8,16 +8,17 @@ td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
+    word-wrap: break-word; /* 내용이 넘치면 줄바꿈 */
 }
 
 /* 첫 번째 줄은 기본 스타일 */
 tr:first-child td {
+    background-color: #f9f9f9;
     font-weight: bold;
 }
 
 /* 두 번째 줄 스타일 */
 .details-row td {
-    background-color: #f9f9f9;
     font-size: 0.9em;
 }
 
