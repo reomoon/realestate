@@ -78,11 +78,33 @@ tr:hover td {
     border: 1px solid #ccc;
 }
 
+/* 검색 입력 필드 스타일 */
+#searchInput {
+    padding: 8px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    margin-right: 10px; /* 드롭다운과 간격 */
+}
+
+/* 검색어 하이라이트 스타일 */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px;
+}
+
 /* 반응형 - 화면이 좁아지면 세로 정렬 */
 @media (max-width: 600px) {
     .filter-container {
         flex-direction: column;
         align-items: flex-start;
+    }
+    #searchInput {
+        width: 100%;
+        margin-bottom: 5px;
     }
 }
 

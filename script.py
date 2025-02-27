@@ -124,42 +124,15 @@ html_with_styles = f"""
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Real Estate Articles</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
-    <style>
-        .group-header {{
-            background-color: #A6A6A6;
-            color: white;
-            font-size: 16px;
-            padding: 8px;
-        }}
-        td {{
-            padding: 10px;
-            border-bottom: 1px solid #ddd;
-        }}
-        .details-row {{
-            background-color: #f9f9f9;
-        }}
-    </style>
-    <script>
-        function filterByArticleName() {{
-            var selectedValue = document.getElementById("articleNameFilter").value;
-            var rows = document.getElementById("articlesTable").getElementsByTagName("tr");
-
-            let showGroup = false;
-            for (var i = 0; i < rows.length; i++) {{
-                var row = rows[i];
-                if (row.classList.contains("group-header")) {{
-                    var articleName = row.innerText.trim();
-                    showGroup = (selectedValue === "" || articleName === selectedValue);
-                }}
-                row.style.display = showGroup ? "" : "none";
-            }}
-        }}
-    </script>
 </head>
 <body>
 <div class="filter-container">
     <h2>Real Estate</h2>
     <div class="dropdown-filter">
+        <!-- 검색 입력창 추가 -->
+        <input type="text" id="searchInput" placeholder="검색어 입력..." onkeyup="filterTable()">
+        
+        <!-- 드롭다운 -->
         <select id="articleNameFilter" onchange="filterByArticleName()">
             <option value="">전체</option>
             {dropdown_options}
@@ -169,6 +142,9 @@ html_with_styles = f"""
 
     <!-- 테이블 -->
     {html_table}
+
+    <!-- JavaScript 파일 불러오기 -->
+    <script src="./html_script.js"></script>
 
 </body>
 </html>
