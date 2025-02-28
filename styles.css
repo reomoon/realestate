@@ -1,0 +1,148 @@
+/* 기본 테이블 스타일 */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* 그룹 헤더 스타일 (articleName이 있는 행) */
+.group-header td {
+    background-color: #007bff !important;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding: 12px;
+}
+
+/* 짝수 행의 background-color가 적용되지 않도록 제외 */
+tr.group-header:nth-child(odd) td { /* odd 홀수, even 짝수 */
+    background-color: #EAEAEA; /* 원하는 색으로 적용 */
+}
+
+/* 일반 행 스타일 */
+td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    word-break: break-word;
+}
+
+/* 홀수 행 배경색
+tr:nth-child(even) td {
+    background-color: #f9f9f9;
+} */
+
+/* 호버 효과 */
+tr:hover td {
+    background-color: #eaf2ff;
+}
+
+/* 두 번째 줄 스타일 */
+.details-row td {
+    background-color: #f1f1f1;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* 제목과 필터를 한 줄에 정렬 */
+.filter-container {
+    display: flex;
+    align-items: center; /* 세로 중앙 정렬 */
+    justify-content: space-between; /* 필요하면 변경 */
+    width: 100%; /* 부모 컨테이너 크기 조정 */
+    max-width: 800px; /* 필요하면 제한 */
+    margin-bottom: 10px; /* 필터와 아래 요소 간격 */
+}
+
+/* 제목 스타일 */
+.filter-container h2 {
+    margin: 0; /* 기본 마진 제거 */
+    white-space: nowrap; /* 제목이 너무 길어도 줄바꿈 방지 */
+}
+
+/* 필터 스타일 */
+.dropdown-filter {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: auto;
+}
+
+/* 드롭다운 스타일 */
+.dropdown-filter select {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* 검색 입력 필드 스타일 */
+#searchInput {
+    padding: 8px;
+    margin: 5px;
+    width: 180px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    position: relative;  /* X 버튼을 입력 필드에 상대적으로 위치시키기 위함 */
+}
+
+
+/* 검색 입력 필드 감싸는 wrapper 스타일 */
+.search-wrapper {
+    position: relative; /* X 버튼을 입력 필드에 절대 위치시키기 위해 */
+    display: flex; /* 내부 요소들을 가로로 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+/* x 버튼 스타일 */
+#clearBtn {
+    position: absolute;
+    right: 10px;  /* 입력창 끝에 위치 */
+    top: 50%;
+    transform: translateY(-50%); /* 세로 중앙 정렬 */
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* x 버튼 호버시 색상 변경 */
+#clearBtn:hover {
+    color: rgb(255, 136, 0);
+}
+
+/* 검색어 하이라이트 스타일 */
+.highlight {
+    background-color: yellow;
+    font-weight: bold;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* 반응형 - 화면이 좁아지면 세로 정렬 */
+@media (max-width: 600px) {
+    .filter-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #searchInput {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+/* 모바일 최적화 */
+@media (max-width: 768px) {
+    .table-container {
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    table {
+        width: 100%;
+    }
+}
