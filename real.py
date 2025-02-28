@@ -129,10 +129,14 @@ html_with_styles = f"""
 <div class="filter-container">
     <h2>Real Estate</h2>
     <div class="dropdown-filter">
-        <!-- 검색 입력창 추가 -->
-        <input type="text" id="searchInput" placeholder="검색어 입력..." onkeyup="filterTable()">
-        
-        <!-- 드롭다운 -->
+        <!-- 검색 입력창을 감싸는 wrapper -->
+        <div class="search-wrapper">
+            <!-- 검색 입력창 -->
+            <input type="text" id="searchInput" placeholder="검색어 입력..." onkeyup="filterTable()">
+            <!-- X 버튼 -->
+            <button type="button" id="clearBtn" onclick="clearSearch()" style="display: none;">x</button>
+        </div>
+        <!-- 드롭다운 필터 -->
         <select id="articleNameFilter" onchange="filterByArticleName()">
             <option value="">전체</option>
             {dropdown_options}

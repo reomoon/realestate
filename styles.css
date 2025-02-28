@@ -67,8 +67,8 @@ tr:hover td {
 .dropdown-filter {
     display: flex;
     align-items: center;
-    gap: 10px; /* 라벨과 드롭다운 사이 간격 */
-    margin-left: auto; /* 우측 정렬 */
+    gap: 10px;
+    margin-left: auto;
 }
 
 /* 드롭다운 스타일 */
@@ -81,12 +81,38 @@ tr:hover td {
 /* 검색 입력 필드 스타일 */
 #searchInput {
     padding: 8px;
-    width: 180px;
     margin: 5px;
+    width: 180px;
     border-radius: 5px;
     border: 1px solid #ccc;
     font-size: 14px;
-    margin-right: 10px; /* 드롭다운과 간격 */
+    position: relative;  /* X 버튼을 입력 필드에 상대적으로 위치시키기 위함 */
+}
+
+
+/* 검색 입력 필드 감싸는 wrapper 스타일 */
+.search-wrapper {
+    position: relative; /* X 버튼을 입력 필드에 절대 위치시키기 위해 */
+    display: flex; /* 내부 요소들을 가로로 배치 */
+    align-items: center; /* 세로 중앙 정렬 */
+}
+
+/* x 버튼 스타일 */
+#clearBtn {
+    position: absolute;
+    right: 10px;  /* 입력창 끝에 위치 */
+    top: 50%;
+    transform: translateY(-50%); /* 세로 중앙 정렬 */
+    background: none;
+    border: none;
+    font-size: 16px;
+    color: #ccc;
+    cursor: pointer;
+}
+
+/* x 버튼 호버시 색상 변경 */
+#clearBtn:hover {
+    color: rgb(255, 136, 0);
 }
 
 /* 검색어 하이라이트 스타일 */

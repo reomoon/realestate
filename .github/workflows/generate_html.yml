@@ -25,7 +25,7 @@ jobs:
           pip install -r requirements.txt  # 필요한 라이브러리 설치
 
       - name: Run Python script
-        run: python script.py  # `script.py` 실행
+        run: python real.py  # `real.py` 실행
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3

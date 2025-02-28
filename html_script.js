@@ -20,6 +20,15 @@ function filterTable() {
     var filter = input.value.trim().toLowerCase();
     var rows = document.getElementById("articlesTable").getElementsByTagName("tr");
 
+     // x 버튼을 숨기거나 나타내는 로직
+     var clearBtn = document.getElementById("clearBtn");
+     if (filter !== "") {
+         clearBtn.style.display = "block"; // 텍스트가 있으면 버튼을 보이게 함
+     } else {
+         clearBtn.style.display = "none"; // 텍스트가 없으면 버튼을 숨김
+     }
+
+    
     for (var i = 0; i < rows.length; i++) { // i = 1 → i = 0 으로 수정
         var row = rows[i];
         var textContent = row.innerText.toLowerCase(); // 여기서 textContent 정의
@@ -34,6 +43,13 @@ function filterTable() {
             row.style.display = "none";
         }
     }
+}
+
+// 검색어 삭제 기능
+function clearSearch() {
+    var input = document.getElementById("searchInput");
+    input.value = "";  // 입력 필드 비우기
+    filterTable();     // 테이블 필터링 재실행
 }
 
 // 검색 텍스트 하이라이트 
