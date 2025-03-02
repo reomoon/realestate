@@ -57,8 +57,7 @@ def fetch_data(urls):
     return all_data
 
 # API URL 목록
-urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam]
-
+urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, sanggal, youngtong1, youngtong2, youngtong3]
 # 데이터 가져오기
 all_articles = fetch_data(urls)
 
