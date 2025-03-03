@@ -4,7 +4,7 @@ name: Generate HTML and Deploy
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 매시간 0분에 실행
+    - cron: '0 6/* * * *'  # 매시간 0분에 실행
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
