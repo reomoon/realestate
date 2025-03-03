@@ -175,6 +175,7 @@ html_with_styles = f"""
 # 저장
 with open("articles_sorted.html", "w", encoding="utf-8") as f:
     f.write(html_with_styles)
+print("articles_sorted.html 파일이 업데이트되었습니다.")  # 디버깅용 로그 추가
 
 # 새로운 데이터를 JSON으로 저장 (다음 실행 시 비교)
 with open(previous_file, "w", encoding="utf-8") as f:
