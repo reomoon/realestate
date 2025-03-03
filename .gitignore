@@ -1,4 +1,3 @@
-articles_sorted.html
 *.pyc
 .pytest_cache
 .venv
