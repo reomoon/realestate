@@ -124,10 +124,14 @@ tr:hover td {
 }
 
 .new-tag {
-    color: red;
-    font-size: small;
+    background-color: red;
+    color: white;
+    font-size: x-small;
     font-weight: bold;
+    padding: 2px 6px;
+    border-radius: 5px;
     margin-left: 10px;
+    display: inline-block;
 }
 
 
