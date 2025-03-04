@@ -1,7 +1,11 @@
 import requests
 import json
 import pandas as pd
+import os
 from common import *  # 쿠키 및 헤더 정보 포함
+
+# 이전 데이터 저장 파일
+previous_file = "previous.json"
 
 # 가격을 억 단위로 변환하는 함수
 def convert_to_number(price_str):
@@ -58,8 +62,21 @@ def fetch_data(urls):
 
 # API URL 목록
 urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, sanggal, youngtong1, youngtong2, youngtong3]
+
+# 이전 데이터 불러오기
+if os.path.exists(previous_file):
+    with open(previous_file, "r", encoding="utf-8") as f:
+        previous_data = json.load(f)
+else:
+    previous_data = []
+
 # 데이터 가져오기
 all_articles = fetch_data(urls)
+
+# 새로운 데이터 여부 확인 (기존 데이터에 없는 항목 찾기)
+previous_article_numbers = {article["articleNo"] for article in previous_data}
+for article in all_articles:
+    article["is_new"] = article["articleNo"] not in previous_article_numbers
 
 # DataFrame 변환
 df = pd.DataFrame(all_articles)
@@ -81,7 +98,9 @@ html_content = ""
 prev_article_name = None
 
 for _, row in df.iterrows():
-    main_info = f"{row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']}  {row['direction']} {row['articleConfirmYmd']}"
+    new_tag = "<span class='new-tag'>NEW</span>" if row["is_new"] else ""
+
+    main_info = f"{row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']}  {row['direction']} {row['articleConfirmYmd']} {new_tag}"
     
     # articleName이 바뀌었을 때, 새로운 그룹 헤더 추가
     if row["articleName"] != prev_article_name:
@@ -156,5 +175,10 @@ html_with_styles = f"""
 # 저장
 with open("articles_sorted.html", "w", encoding="utf-8") as f:
     f.write(html_with_styles)
+print("articles_sorted.html 파일이 업데이트되었습니다.")  # 디버깅용 로그 추가
+
+# 새로운 데이터를 JSON으로 저장 (다음 실행 시 비교)
+with open(previous_file, "w", encoding="utf-8") as f:
+    json.dump(all_articles, f, ensure_ascii=False, indent=4)
 
 print("HTML 파일 저장 완료!")

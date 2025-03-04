@@ -123,6 +123,14 @@ tr:hover td {
     border-radius: 3px;
 }
 
+.new-tag {
+    color: red;
+    font-size: small;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+
 /* 반응형 - 화면이 좁아지면 세로 정렬 */
 @media (max-width: 600px) {
     .filter-container {
