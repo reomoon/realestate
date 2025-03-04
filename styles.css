@@ -51,8 +51,8 @@ tr:hover td {
 body {
     margin: 0;
     padding: 0;
-    /* overflow: auto; body에서 스크롤이 가능하도록 설정 */
-    height: hidden; /* body 자체에서 스크롤을 막습니다 */
+    overflow: hidden; /* body에서 스크롤이 가능하도록 설정 */
+    height: 100vh; /* body 자체에서 스크롤을 막습니다 */
 }
 
 /* 제목과 필터를 한 줄에 정렬 */
