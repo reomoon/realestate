@@ -4,7 +4,7 @@ name: Generate HTML and Deploy
 
 on:
   schedule:
-    - cron: '0 12,15,18 * * *'  # 매일 0분 12시, 15시, 18시에 실행
+    - cron: '0 3,6,9 * * *'  # KST(12시, 15시, 18시)에 실행되도록 변경
   workflow_dispatch:  # 수동 실행 가능
 
 jobs:
