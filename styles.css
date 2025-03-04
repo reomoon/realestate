@@ -47,15 +47,36 @@ tr:hover td {
     color: #555;
 }
 
+/* body 스타일에 padding을 추가하여 filter-container와 겹치지 않도록 설정 */
+body {
+    margin: 0;
+    padding: 0;
+    /* overflow: auto; body에서 스크롤이 가능하도록 설정 */
+    height: hidden; /* body 자체에서 스크롤을 막습니다 */
+}
+
 /* 제목과 필터를 한 줄에 정렬 */
 .filter-container {
-    display: flex;
-    align-items: center; /* 세로 중앙 정렬 */
-    justify-content: space-between; /* 필요하면 변경 */
-    width: 100%; /* 부모 컨테이너 크기 조정 */
-    max-width: 800px; /* 필요하면 제한 */
-    margin-bottom: 10px; /* 필터와 아래 요소 간격 */
+    position: fixed; /* 화면 상단에 고정 */
+    top: 0; /* 화면의 상단에 위치 */
+    left: 0; /* 화면의 왼쪽에 위치 */
+    display: flex; /* 자식 요소들을 가로로 배치 */
+    align-items: center; /* 자식 요소들을 세로로 중앙 정렬 */
+    justify-content: space-between; /* 자식 요소들 사이에 간격을 동일하게 배치 */
+    width: 100%; /* 전체 화면 너비를 차지하도록 설정 */
+    max-width: 800px; /* 최대 너비를 800px로 제한 (필요한 경우 조정) */
+    margin-bottom: 10px; /* 필터와 아래 내용 간의 간격 */
+    z-index: 1000; /* 다른 요소들보다 위에 표시되도록 우선순위 지정 */
 }
+
+/* filter-container 높이만큼 본문을 아래로 이동 */
+.main-content {
+    max-width: 800px;
+    margin-top: 80px; /* filter-container 높이만큼 마진을 추가 */
+    height: calc(100vh - 80px); /* 화면 높이에서 filter-container 높이를 제외한 나머지 공간 */
+    overflow-y: auto; /* main-content에서만 스크롤이 가능하도록 설정 */
+    position: relative; /* main-content 영역을 relative로 설정 */
+} 
 
 /* 제목 스타일 */
 .filter-container h2 {
@@ -68,7 +89,7 @@ tr:hover td {
     display: flex;
     align-items: center;
     gap: 10px;
-    margin-left: auto;
+    margin-right: 5px;
 }
 
 /* 드롭다운 스타일 */
@@ -123,17 +144,16 @@ tr:hover td {
     border-radius: 3px;
 }
 
+/* new 표시 스타일 */
 .new-tag {
     background-color: red;
     color: white;
     font-size: x-small;
     font-weight: bold;
-    padding: 2px 6px;
+    padding: 2px 5px;
     border-radius: 5px;
-    margin-left: 10px;
     display: inline-block;
 }
-
 
 /* 반응형 - 화면이 좁아지면 세로 정렬 */
 @media (max-width: 600px) {

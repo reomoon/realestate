@@ -162,6 +162,10 @@ html_with_styles = f"""
     </div>
 </div>
 
+<div class="main-content"> <!-- 추가된 부분 -->
+    {html_table}
+</div>
+
     <!-- 테이블 -->
     {html_table}
 
