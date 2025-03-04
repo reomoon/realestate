@@ -72,8 +72,8 @@ body {
 /* filter-container 높이만큼 본문을 아래로 이동 */
 .main-content {
     max-width: 800px;
-    margin-top: 76px; /* filter-container 높이만큼 마진을 추가 */
-    height: calc(100vh - 76px); /* 화면 높이에서 filter-container 높이를 제외한 나머지 공간 */
+    margin-top: 80px; /* filter-container 높이만큼 마진을 추가 */
+    height: calc(100vh - 80px); /* 화면 높이에서 filter-container 높이를 제외한 나머지 공간 */
     overflow-y: auto; /* main-content에서만 스크롤이 가능하도록 설정 */
     position: relative; /* main-content 영역을 relative로 설정 */
 } 
