@@ -57,7 +57,7 @@ def fetch_data(urls):
     return all_data
 
 # API URL 목록
-urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, sanggal, youngtong1, youngtong2, youngtong3]
+urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, youngtong1, ssanyoung]
 
 # 이전 데이터 불러오기
 if os.path.exists(previous_file):
@@ -94,8 +94,12 @@ prev_article_name = None
 for _, row in df.iterrows():
     new_tag = "<span class='new-tag'>NEW</span>" if row["is_new"] else ""
 
-    main_info = f"{row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']} {row['direction']} {row['articleConfirmYmd']} {new_tag}"
-
+    # 한 칸에 두 줄로 표시
+    main_info = f"""
+        {row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']} {row['direction']} {row['articleConfirmYmd']} {new_tag}
+        <br>
+        {row['articleFeatureDesc']} | {row['link']}
+    """
     if row["articleName"] != prev_article_name:
         html_content += f"""
         <tr class="group-header">
@@ -104,12 +108,10 @@ for _, row in df.iterrows():
         """
         prev_article_name = row["articleName"]
 
+     # 한 칸에 모든 내용을 포함
     html_content += f"""
     <tr>
         <td>{main_info}</td>
-    </tr>
-    <tr class="details-row">
-        <td>{row['articleFeatureDesc']} | {row['link']}</td>
     </tr>
     """
 
