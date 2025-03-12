@@ -36,6 +36,9 @@ def fetch_data(urls):
         if response.status_code == 200:
             try:
                 data = response.json()
+                # 응답 구조를 출력하여 실제 데이터를 확인
+                print(json.dumps(data, indent=4, ensure_ascii=False))  # JSON 전체를 출력하여 어떤 구조인지 확인
+                
                 if 'articleList' in data:
                     for article in data['articleList']:  
                         all_data.append({
@@ -48,7 +51,6 @@ def fetch_data(urls):
                             "direction": article.get('direction'),
                             "articleConfirmYmd": article.get('articleConfirmYmd'),
                             "articleFeatureDesc": article.get('articleFeatureDesc'),
-                            "premiumPrc": article.get('premiumPrc'),
                         })
             except json.JSONDecodeError:
                 print(f"JSON 디코딩 실패, HTML 내용: {response.text[:500]}")
@@ -58,7 +60,7 @@ def fetch_data(urls):
     return all_data
 
 # API URL 목록
-urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, youngtong1, ssanyoung, bukbyun, peongtack1, peongtack2, peongtack3]
+urls = [bukbyun]
 
 # 이전 데이터 불러오기
 if os.path.exists(previous_file):
@@ -99,7 +101,7 @@ for _, row in df.iterrows():
     main_info = f"""
         {row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']} {row['direction']} {row['articleConfirmYmd']} {new_tag}
         <br>
-        {'P ' + str(row['premiumPrc']) + '만원' if pd.notna(row['premiumPrc']) else ''} | {row['articleFeatureDesc']} | {row['link']}
+        {row['articleFeatureDesc']} | {row['link']}
     """
     if row["articleName"] != prev_article_name:
         html_content += f"""
@@ -125,23 +127,23 @@ html_table = f"""
 """
 
 # articleName 목록을 추출하여 드롭다운 옵션 생성
-article_names = df['articleName'].unique()
-dropdown_options = ''.join([f'<option value="{name}">{name}</option>' for name in article_names])
+# article_names = df['articleName'].unique()
+# dropdown_options = ''.join([f'<option value="{name}">{name}</option>' for name in article_names])
 
-# HTML 템플릿 불러오기 및 데이터 삽입
-with open(template_file, "r", encoding="utf-8") as f:
-    template_html = f.read()
+# # HTML 템플릿 불러오기 및 데이터 삽입
+# with open(template_file, "r", encoding="utf-8") as f:
+#     template_html = f.read()
 
-final_html = template_html.replace("{dropdown_options}", dropdown_options).replace("{html_table}", html_table)
+# final_html = template_html.replace("{dropdown_options}", dropdown_options).replace("{html_table}", html_table)
 
-# 저장
-with open(output_file, "w", encoding="utf-8") as f:
-    f.write(final_html)
+# # 저장
+# with open(output_file, "w", encoding="utf-8") as f:
+#     f.write(final_html)
 
-print("articles_sorted.html 파일이 업데이트되었습니다.")
+# print("articles_sorted.html 파일이 업데이트되었습니다.")
 
-# 새로운 데이터를 JSON으로 저장 (다음 실행 시 비교)
-with open(previous_file, "w", encoding="utf-8") as f:
-    json.dump(all_articles, f, ensure_ascii=False, indent=4)
+# # 새로운 데이터를 JSON으로 저장 (다음 실행 시 비교)
+# with open(previous_file, "w", encoding="utf-8") as f:
+#     json.dump(all_articles, f, ensure_ascii=False, indent=4)
 
-print("HTML 파일 저장 완료!")
+# print("HTML 파일 저장 완료!")
