@@ -99,7 +99,7 @@ for _, row in df.iterrows():
     main_info = f"""
         {row['dealOrWarrantPrc']} | {row['buildingName']} {row['area2']}㎡ {row['floorInfo']} {row['direction']} {row['articleConfirmYmd']} {new_tag}
         <br>
-        {'P ' + str(row['premiumPrc']) + '만원' if pd.notna(row['premiumPrc']) else ''} | {row['articleFeatureDesc']} | {row['link']}
+        {'P ' + str(row['premiumPrc']) + '만원' if pd.notna(row['premiumPrc']) else ''} {row['articleFeatureDesc']} | {row['link']}
     """
     if row["articleName"] != prev_article_name:
         html_content += f"""
