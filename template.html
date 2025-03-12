@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Articles</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<div class="filter-container">
+    <h2>Real Estate</h2>
+    <div class="dropdown-filter">
+        <div class="search-wrapper">
+            <input type="text" id="searchInput" placeholder="검색어 입력..." onkeyup="filterTable()">
+            <button type="button" id="clearBtn" onclick="clearSearch()" style="display: none;">x</button>
+        </div>
+        <select id="articleNameFilter" onchange="filterByArticleName()">
+            <option value="">전체</option>
+            {dropdown_options}
+        </select>
+    </div>
+</div>
+
+<div class="main-content">
+    {html_table}
+</div>
+
+<script src="./html_script.js"></script>
+</body>
+</html>
