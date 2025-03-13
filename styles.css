@@ -11,24 +11,24 @@ table {
 /* 그룹 헤더 스타일 (articleName이 있는 행) */
 .group-header td {
     background-color: #007bff !important;
-    color: white;
+    color: rgba(255, 255, 255, 0.941);
     font-weight: bold;
     text-align: center;
     padding: 12px;
 }
 
 /* 📌 짝수/홀수 행 배경색 구분 */
-tr:nth-child(odd) td {
+/* tr:nth-child(odd) td {
     background-color: #ffffff;  /* 밝은 배경 */
-}
+/* }
 
 tr:nth-child(even) td {
     background-color: #f9f9f9;  /* 연한 회색 */
-}
+/* } */
 
 /* 일반 행 스타일 */
 td {
-    border: 1px solid #ddd;
+    border: 1px solid #ddddddec;
     padding: 12px;
     text-align: left;
     word-break: break-word;
@@ -163,6 +163,25 @@ table {
     border-radius: 5px;
     display: inline-block;
 }
+
+/* ▲, ▼, - 스타일 */
+.increase {
+    font-size: 12px;  /* 글자 크기 작게 */
+    color: red;       /* 빨간색 (▲ 증가) */
+    font-weight: bold;
+}
+
+.decrease {
+    font-size: 12px;  /* 글자 크기 작게 */
+    color: blue;      /* 파란색 (▼ 감소) */
+    font-weight: bold;
+}
+
+.no-change {
+    font-size: 10px;  /* 글자 크기 작게 */
+    color: gray;      /* 회색 (- 변화 없음) */
+}
+
 
 /* 반응형 - 화면이 좁아지면 세로 정렬 */
 @media (max-width: 600px) {
