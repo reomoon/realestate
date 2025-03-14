@@ -2,6 +2,7 @@ import requests
 import json
 import pandas as pd
 import os
+from collections import Counter
 from common import *  # 쿠키 및 헤더 정보 포함
 
 # 이전 데이터 저장 파일
@@ -60,20 +61,28 @@ def fetch_data(urls):
 # API URL 목록
 urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, youngtong1, ssanyoung, bukbyun, peongtack1, peongtack2, peongtack3]
 
-# 이전 데이터 불러오기
+# 1️⃣ 이전 데이터 불러오기
 if os.path.exists(previous_file):
     with open(previous_file, "r", encoding="utf-8") as f:
         previous_data = json.load(f)
 else:
     previous_data = []
 
-# 데이터 가져오기
+# 2️⃣ 데이터 가져오기
 all_articles = fetch_data(urls)
 
-# 새로운 데이터 여부 확인
+# 3️⃣ 새로운 데이터 여부 확인
 previous_article_numbers = {article["articleNo"] for article in previous_data}
 for article in all_articles:
     article["is_new"] = article["articleNo"] not in previous_article_numbers
+
+# 매물 개수 변화 비교를 위해 `articleName` 기준 그룹화
+previous_counts = Counter(article["articleName"] for article in previous_data)
+current_counts = Counter(article["articleName"] for article in all_articles)
+
+# 📌 디버깅용 출력 (확인 후 삭제 가능)
+# print("🔴 이전 매물 개수:", previous_counts)  
+# print("🟢 현재 매물 개수:", current_counts)
 
 # DataFrame 변환
 df = pd.DataFrame(all_articles)
@@ -88,6 +97,9 @@ df['link'] = df['articleNo'].apply(lambda x: f'<a href="https://m.land.naver.com
 # 불필요한 컬럼 제거
 df.drop(columns=['articleNo', 'billions', 'remainder'], inplace=True)
 
+# 각 articleName별 매물 수 계산
+article_counts = df['articleName'].value_counts().to_dict()
+
 # HTML 테이블 생성 (articleName 그룹화)
 html_content = ""
 prev_article_name = None
@@ -101,10 +113,24 @@ for _, row in df.iterrows():
         <br>
         {'P ' + str(row['premiumPrc']) + '만원' if pd.notna(row['premiumPrc']) else ''} {row['articleFeatureDesc']} | {row['link']}
     """
+    
+    # 같은 articleName 그룹의 첫 번째 항목에만 헤더 추가
     if row["articleName"] != prev_article_name:
+        today_count = current_counts.get(row["articleName"], 0)
+        yesterday_count = previous_counts.get(row["articleName"], 0)
+        difference = today_count - yesterday_count
+
+        # 증가/감소 여부에 따라 표시
+        if difference > 0:
+            change_text = f'<span class="increase">🔺{difference}</span>'
+        elif difference < 0:
+            change_text = f'<span class="decrease">🔻{abs(difference)}</span>'
+        else:
+            change_text = '<span class="no-change">-</span>'
+
         html_content += f"""
         <tr class="group-header">
-            <td colspan="2"><strong>{row['articleName']}</strong></td>
+            <td colspan="2"><strong>{row['articleName']} ({today_count}개) {change_text}</td>
         </tr>
         """
         prev_article_name = row["articleName"]
