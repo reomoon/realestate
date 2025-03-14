@@ -5,6 +5,7 @@ table {
     border-spacing: 0;
     border-radius: 10px;
     overflow: hidden;
+    background-color: #d3d0d0;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -28,10 +29,14 @@ tr:nth-child(even) td {
 
 /* 일반 행 스타일 */
 td {
-    border: 1px solid #ddddddec;
+    border: 1px solid #ffffffec;
     padding: 12px;
     text-align: left;
     word-break: break-word;
+}
+
+tr {
+    background-color: white; /* 행(tr)에 회색 배경 */
 }
 
 /* 호버 효과 */
@@ -40,14 +45,11 @@ tr:hover td {
     transition: background-color 0.3s ease-in-out;
 }
 
-/* 두 번째 줄 스타일 */
 .details-row td {
-    background-color: #f1f1f1 !important;  /* 강제 적용 */
+    background-color: #ddddddec !important; /* 각 셀(td)만 흰색으로 */
+    padding: 5px;
     font-size: 0.9em;
     color: #555;
-    padding: 5px;
-    display: block;  /* 한 줄 차지하도록 설정 */
-    width: 100%;  /* 테이블 전체 너비 사용 */
 }
 
 /* body 스타일에 padding을 추가하여 filter-container와 겹치지 않도록 설정 */
@@ -55,7 +57,6 @@ html, body {
     margin: 0;
     padding: 0;
     height: 100%; /* html과 body의 높이를 100%로 설정하여 페이지 크기에 맞게 조정 */
-    background-color: #e9e9e9;
 }
 
 table {
@@ -167,19 +168,21 @@ table {
 /* ▲, ▼, - 스타일 */
 .increase {
     font-size: 12px;  /* 글자 크기 작게 */
-    color: red;       /* 빨간색 (▲ 증가) */
+    color: gray;       /* (▲ 증가) */
     font-weight: bold;
 }
 
 .decrease {
     font-size: 12px;  /* 글자 크기 작게 */
-    color: blue;      /* 파란색 (▼ 감소) */
+    color: gray;      /* (▼ 감소) */
     font-weight: bold;
 }
 
 .no-change {
     font-size: 10px;  /* 글자 크기 작게 */
     color: gray;      /* 회색 (- 변화 없음) */
+    font-weight: bold;
+    display: inline; /* 인라인 요소로 설정 */
 }
 
 
