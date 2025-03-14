@@ -160,6 +160,10 @@ with open(template_file, "r", encoding="utf-8") as f:
 
 final_html = template_html.replace("{dropdown_options}", dropdown_options).replace("{html_table}", html_table)
 
+# df의 길이를 출력하여 데이터 개수 확인
+article_counts = df['articleName'].value_counts()
+print(article_counts)
+
 # 저장
 with open(output_file, "w", encoding="utf-8") as f:
     f.write(final_html)
