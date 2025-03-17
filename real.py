@@ -113,7 +113,7 @@ for _, row in df.iterrows():
         <br>
         {'P ' + str(row['premiumPrc']) + '만원' if pd.notna(row['premiumPrc']) else ''} {row['articleFeatureDesc']} | {row['link']}
     """
-    
+
     # 같은 articleName 그룹의 첫 번째 항목에만 헤더 추가
     if row["articleName"] != prev_article_name:
         today_count = current_counts.get(row["articleName"], 0)
@@ -150,19 +150,23 @@ html_table = f"""
 </table>
 """
 
-# articleName 목록을 추출하여 드롭다운 옵션 생성
-article_names = df['articleName'].unique()
-dropdown_options = ''.join([f'<option value="{name}">{name}</option>' for name in article_names])
-
-# HTML 템플릿 불러오기 및 데이터 삽입
+# 1. template.html 파일 읽기
 with open(template_file, "r", encoding="utf-8") as f:
     template_html = f.read()
 
+# 2. dropdown_options 생성
+article_names = df['articleName'].unique()
+dropdown_options = ''.join([f'<option value="{name}">{name}</option>' for name in article_names])
+
+# 3. {dropdown_options} & {html_table} 치환
 final_html = template_html.replace("{dropdown_options}", dropdown_options).replace("{html_table}", html_table)
 
+# 4. HTML 일부 출력 (디버깅용)
+# print(final_html[:1000])  # HTML 일부 출력
+
 # df의 길이를 출력하여 데이터 개수 확인
-article_counts = df['articleName'].value_counts()
-print(article_counts)
+# article_counts = df['articleName'].value_counts()
+# print(article_counts)
 
 # 저장
 with open(output_file, "w", encoding="utf-8") as f:
