@@ -1,16 +1,36 @@
 // 아파트 이름 필터
 function filterByArticleName() {
-    var selectedValue = document.getElementById("articleNameFilter").value;
+    var selectedValue = document.getElementById("articleNameFilter").value.trim().toLowerCase();
     var rows = document.getElementById("articlesTable").getElementsByTagName("tr");
 
-    let showGroup = false;
+    var showGroup = false;  // 그룹이 보여야 하는지 여부
+    var currentGroupName = "";  // 현재 그룹 이름
+
+    console.log("Selected Value:", selectedValue);
+
     for (var i = 0; i < rows.length; i++) {
         var row = rows[i];
+
+        // 그룹 헤더인 경우
         if (row.classList.contains("group-header")) {
-            var articleName = row.innerText.trim();
-            showGroup = (selectedValue === "" || articleName === selectedValue);
+            currentGroupName = row.innerText.trim().toLowerCase().replace(/[^a-z가-힣\s1-9🔺🔻개]/g, "");  // 그룹 이름 설정
+            currentGroupName = currentGroupName.replace(/\s*\d+개\s*$/, "");  // 매물 수 제거로 currentGroupName, currentGroupName 일치하는지 확인
+            console.log("Current Group Name:", currentGroupName);
+
+            // 선택된 값이 비어있거나, 그룹 이름과 선택된 값이 일치하는 경우
+            showGroup = (selectedValue === "" || currentGroupName === selectedValue);
+            console.log("Show Group:", showGroup);
+
+            // 그룹 헤더의 display 설정
+            row.style.display = showGroup ? "" : "none";
+
+            // 그룹 항목들의 display 설정
+            var nextRow = row.nextElementSibling;
+            while (nextRow && !nextRow.classList.contains("group-header")) {
+                nextRow.style.display = showGroup ? "" : "none";
+                nextRow = nextRow.nextElementSibling;
+            }
         }
-        row.style.display = showGroup ? "" : "none";
     }
 }
 
