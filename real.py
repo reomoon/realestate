@@ -59,7 +59,7 @@ def fetch_data(urls):
     return all_data
 
 # API URL 목록
-urls = [gaeyang, bongdam1, bongdam2, homaesil, peongnae, maseok, godeok, tangjung, janghyun, mokkam, youngtong1, ssanyoung, bukbyun, peongtack1, peongtack2, peongtack3, yangju]
+urls = [gaeyang, bongdam1, peongnae, godeok, godeok1, tangjung, tangjung1, peongtack1, peongtack2, osan, osan1, chilwon, bukbyun, yangju]
 
 # 1️⃣ 이전 데이터 불러오기
 if os.path.exists(previous_file):
