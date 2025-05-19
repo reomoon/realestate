@@ -1,11 +1,11 @@
 # realestate
 ### 구조
-/your-repository
-  ├── .github/
-  │   └── workflows/
-  │       └── generate_html.yml   <-- 이 파일이 GitHub Actions 워크플로우 설정 파일
-  ├── script.py                    <-- Python 스크립트 파일
-  ├── requirements.txt             <-- 필요한 라이브러리 목록
+/your-repository<br>
+  ├── .github/<br>
+  │   └── workflows/<br>
+  │       └── generate_html.yml   <-- 이 파일이 GitHub Actions 워크플로우 설정 파일<br>
+  ├── script.py                    <-- Python 스크립트 파일<br>
+  ├── requirements.txt             <-- 필요한 라이브러리 목록<br>
 
 ### 설명
 ![image](https://github.com/user-attachments/assets/e0513efe-1c6c-405f-9cf2-693f4f94a7c9)
