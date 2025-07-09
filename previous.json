@@ -429,6 +429,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536942228",
+        "articleName": "e편한세상평내메트로원",
+        "dealOrWarrantPrc": "3억 9,000",
+        "buildingName": "108동",
+        "area2": 53,
+        "floorInfo": "6/20",
+        "direction": "동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "월세안고26.8월만기 매매 풀옵션 에어컨2 김냉 냉장고 중문",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2535619682",
         "articleName": "e편한세상평내메트로원",
         "dealOrWarrantPrc": "4억 1,000",
@@ -442,19 +455,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2535154439",
-        "articleName": "e편한세상평내메트로원",
-        "dealOrWarrantPrc": "4억 2,000",
-        "buildingName": "111동",
-        "area2": 53,
-        "floorInfo": "4/13",
-        "direction": "남향",
-        "articleConfirmYmd": "20250630",
-        "articleFeatureDesc": "에어컨 2대   입주협의 확장형",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2535426148",
         "articleName": "e편한세상평내메트로원",
         "dealOrWarrantPrc": "4억 2,000",
@@ -464,6 +464,19 @@
         "direction": "남향",
         "articleConfirmYmd": "20250701",
         "articleFeatureDesc": "갭투자,시스템에어컨3대,신축2년차,컨디션최상,광역버스도보 5분",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2535154439",
+        "articleName": "e편한세상평내메트로원",
+        "dealOrWarrantPrc": "4억 2,000",
+        "buildingName": "111동",
+        "area2": 53,
+        "floorInfo": "4/13",
+        "direction": "남향",
+        "articleConfirmYmd": "20250630",
+        "articleFeatureDesc": "에어컨 2대   입주협의 확장형",
         "premiumPrc": null,
         "is_new": true
     },
@@ -676,19 +689,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2530690634",
-        "articleName": "e편한세상평내메트로원",
-        "dealOrWarrantPrc": "4억 2,000",
-        "buildingName": "108동",
-        "area2": 53,
-        "floorInfo": "중/20",
-        "direction": "동향",
-        "articleConfirmYmd": "20250609",
-        "articleFeatureDesc": "세안고 매매 버스정류장 가깝고, 초중고 도보권 신축대단지 투자가능물건",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536052985",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 9,500",
@@ -715,19 +715,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2535816418",
-        "articleName": "고덕국제신도시르플로랑",
-        "dealOrWarrantPrc": "3억 5,500",
-        "buildingName": "289동",
-        "area2": 46,
-        "floorInfo": "14/25",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250703",
-        "articleFeatureDesc": "고덕은9시 막힘없는 정원조망",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2535672466",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 7,000",
@@ -741,19 +728,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2535772452",
-        "articleName": "고덕국제신도시르플로랑",
-        "dealOrWarrantPrc": "3억 5,500",
-        "buildingName": "289동",
-        "area2": 46,
-        "floorInfo": "14/25",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250703",
-        "articleFeatureDesc": "투인원 에어컨. 줄눈. 탄성코팅. 로얄동, 로얄층. 로데오거리 역세권.",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2535721588",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 7,000",
@@ -763,6 +737,19 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250702",
         "articleFeatureDesc": "고덕은9시 막힘없는 조망 화이트톤 예쁜집",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2535772452",
+        "articleName": "고덕국제신도시르플로랑",
+        "dealOrWarrantPrc": "3억 5,500",
+        "buildingName": "289동",
+        "area2": 46,
+        "floorInfo": "14/25",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250703",
+        "articleFeatureDesc": "투인원 에어컨. 줄눈. 탄성코팅. 로얄동, 로얄층. 로데오거리 역세권.",
         "premiumPrc": null,
         "is_new": true
     },
@@ -858,15 +845,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2534011350",
+        "articleNo": "2534015430",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 7,000",
         "buildingName": "289동",
         "area2": 46,
         "floorInfo": "17/25",
-        "direction": "남동향",
+        "direction": "남서향",
         "articleConfirmYmd": "20250624",
-        "articleFeatureDesc": "초역세권 아파트 전세끼고 투자하세요 긴잔금 가능",
+        "articleFeatureDesc": "고덕은9시 시스템에어컨3대 귀한 소형평수 투자로 굿",
         "premiumPrc": null,
         "is_new": true
     },
@@ -884,15 +871,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2534015430",
+        "articleNo": "2534011350",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 7,000",
         "buildingName": "289동",
         "area2": 46,
         "floorInfo": "17/25",
-        "direction": "남서향",
+        "direction": "남동향",
         "articleConfirmYmd": "20250624",
-        "articleFeatureDesc": "고덕은9시 시스템에어컨3대 귀한 소형평수 투자로 굿",
+        "articleFeatureDesc": "초역세권 아파트 전세끼고 투자하세요 긴잔금 가능",
         "premiumPrc": null,
         "is_new": true
     },
@@ -923,19 +910,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2533516602",
-        "articleName": "고덕국제신도시르플로랑",
-        "dealOrWarrantPrc": "3억 5,500",
-        "buildingName": "289동",
-        "area2": 46,
-        "floorInfo": "14/25",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250621",
-        "articleFeatureDesc": "서정리초역세권, 전세안고 매매, 줄눈, 투인원에어컨",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2534732838",
         "articleName": "고덕국제신도시르플로랑",
         "dealOrWarrantPrc": "3억 9,500",
@@ -949,6 +923,32 @@
         "is_new": true
     },
     {
+        "articleNo": "2533549954",
+        "articleName": "고덕국제신도시르플로랑",
+        "dealOrWarrantPrc": "4억",
+        "buildingName": "289동",
+        "area2": 46,
+        "floorInfo": "21/25",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250621",
+        "articleFeatureDesc": "세안고매매  투인원에어컨  서정리역과 가장 가까운 아파트",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2533538028",
+        "articleName": "고덕국제신도시르플로랑",
+        "dealOrWarrantPrc": "4억",
+        "buildingName": "289동",
+        "area2": 46,
+        "floorInfo": "21/25",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250621",
+        "articleFeatureDesc": "에어컨 2대. 줄눈. 로데오 상권 이용 편한 로얄동. 고층의 시원한 뷰.",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2534577141",
         "articleName": "더샵지제역센트럴파크(1BL)",
         "dealOrWarrantPrc": "3억 5,000",
@@ -957,7 +957,7 @@
         "floorInfo": "저/27",
         "direction": "남동향",
         "articleConfirmYmd": "20250626",
-        "articleFeatureDesc": "강추캡투자,조정가",
+        "articleFeatureDesc": "강추캡투자",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1248,19 +1248,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2536118408",
-        "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 7,000",
-        "buildingName": "207동",
-        "area2": 55,
-        "floorInfo": "10/20",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250704",
-        "articleFeatureDesc": "시스템에어컨3대 판상형 관리잘된집",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536121036",
         "articleName": "한들물빛도시하늘채",
         "dealOrWarrantPrc": "3억 8,000",
@@ -1300,28 +1287,28 @@
         "is_new": true
     },
     {
-        "articleNo": "2535154054",
+        "articleNo": "2536118408",
         "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 4,000",
-        "buildingName": "205동",
+        "dealOrWarrantPrc": "3억 7,000",
+        "buildingName": "207동",
         "area2": 55,
-        "floorInfo": "2/20",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250630",
-        "articleFeatureDesc": "곡교천 뷰  인기동시스템에어컨3대",
+        "floorInfo": "10/20",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250704",
+        "articleFeatureDesc": "시스템에어컨3대 판상형 관리잘된집",
         "premiumPrc": null,
         "is_new": true
     },
     {
-        "articleNo": "2535684509",
+        "articleNo": "2536977339",
         "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 6,000",
-        "buildingName": "207동",
+        "dealOrWarrantPrc": "3억 7,000",
+        "buildingName": "208동",
         "area2": 55,
-        "floorInfo": "15/20",
+        "floorInfo": "중/22",
         "direction": "남동향",
-        "articleConfirmYmd": "20250702",
-        "articleFeatureDesc": "시스템에어컨3, 줄눈 탄성, 식세기 정수기, 미세방충망",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "시스템에어컨2대,알파룸확장,안방작은방붙박이장화장대등옵션좋고,뷰나옵니다",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1339,6 +1326,32 @@
         "is_new": true
     },
     {
+        "articleNo": "2535684509",
+        "articleName": "한들물빛도시하늘채",
+        "dealOrWarrantPrc": "3억 6,000",
+        "buildingName": "207동",
+        "area2": 55,
+        "floorInfo": "15/20",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250702",
+        "articleFeatureDesc": "시스템에어컨3, 줄눈 탄성, 식세기 정수기, 미세방충망",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2535154054",
+        "articleName": "한들물빛도시하늘채",
+        "dealOrWarrantPrc": "3억 4,000",
+        "buildingName": "205동",
+        "area2": 55,
+        "floorInfo": "2/20",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250630",
+        "articleFeatureDesc": "곡교천 뷰  인기동시스템에어컨3대",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2536651039",
         "articleName": "한들물빛도시하늘채",
         "dealOrWarrantPrc": "4억",
@@ -1346,6 +1359,19 @@
         "area2": 55,
         "floorInfo": "고/22",
         "direction": "남서향",
+        "articleConfirmYmd": "20250708",
+        "articleFeatureDesc": null,
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536652711",
+        "articleName": "한들물빛도시하늘채",
+        "dealOrWarrantPrc": "3억 6,500",
+        "buildingName": "205동",
+        "area2": 55,
+        "floorInfo": "저/20",
+        "direction": "남동향",
         "articleConfirmYmd": "20250708",
         "articleFeatureDesc": null,
         "premiumPrc": null,
@@ -1378,19 +1404,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2536652711",
-        "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 6,500",
-        "buildingName": "205동",
-        "area2": 55,
-        "floorInfo": "저/20",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": null,
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536349416",
         "articleName": "한들물빛도시하늘채",
         "dealOrWarrantPrc": "3억 4,000",
@@ -1400,19 +1413,6 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250707",
         "articleFeatureDesc": " 채광좋은 인기타입시스템에어컨2대 월세낀매매",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536402683",
-        "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 7,000",
-        "buildingName": "206동",
-        "area2": 55,
-        "floorInfo": "고/22",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "확트인 곡교천조망권 에어컨3 중문 인덕션 옵션 실입주가",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1430,15 +1430,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2535172593",
+        "articleNo": "2536402683",
         "articleName": "한들물빛도시하늘채",
-        "dealOrWarrantPrc": "3억 6,000",
-        "buildingName": "207동",
+        "dealOrWarrantPrc": "3억 7,000",
+        "buildingName": "206동",
         "area2": 55,
-        "floorInfo": "15/20",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250630",
-        "articleFeatureDesc": "시스템에어컨2대, 전세승계조건",
+        "floorInfo": "고/22",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250707",
+        "articleFeatureDesc": "확트인 곡교천조망권 에어컨3 중문 인덕션 옵션 실입주가",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1469,6 +1469,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2535693006",
+        "articleName": "별하신도시하늘채",
+        "dealOrWarrantPrc": "2억 9,000",
+        "buildingName": "605동",
+        "area2": 55,
+        "floorInfo": "저/27",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250702",
+        "articleFeatureDesc": "74a,분양권일때가장저렴,초품아,시에4대와주방업a,사전점검집보기가능",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2535908699",
         "articleName": "별하신도시하늘채",
         "dealOrWarrantPrc": "2억 9,500",
@@ -1491,19 +1504,6 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250630",
         "articleFeatureDesc": "시원한뻥뷰,시에4대,협의입주가능,층간소음걱정없는필로티층",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2535693006",
-        "articleName": "별하신도시하늘채",
-        "dealOrWarrantPrc": "3억 1,000",
-        "buildingName": "605동",
-        "area2": 55,
-        "floorInfo": "저/27",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250702",
-        "articleFeatureDesc": "편한한뷰,양쪽이 트여 있어서 밝아요.시에3대,중문,줄눈,입주협의.",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1599,19 +1599,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2536686881",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 3,000",
-        "buildingName": "319동",
-        "area2": 59,
-        "floorInfo": "15/28",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "입주협의. 상가이용좋음. 공원보이는뷰. 집관리상태최상",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536674237",
         "articleName": "평택센트럴자이3단지",
         "dealOrWarrantPrc": "3억 3,000",
@@ -1625,67 +1612,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2536908685",
+        "articleNo": "2536686881",
         "articleName": "평택센트럴자이3단지",
         "dealOrWarrantPrc": "3억 3,000",
         "buildingName": "319동",
         "area2": 59,
         "floorInfo": "15/28",
         "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "협의입주  미세방충망 중문 투인원 등 관리굿   뻥뷰",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536898721",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 6,000",
-        "buildingName": "310동",
-        "area2": 59,
-        "floorInfo": "28/29",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "8월이후입주협의가능,주출입구동,투인원에어컨",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536887665",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 2,500",
-        "buildingName": "319동",
-        "area2": 59,
-        "floorInfo": "3/28",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "입주협의. 집은 언제든지 볼 수 있음.이쁜조경뷰.상가이용편리.볕좋아요",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536852161",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 3,000",
-        "buildingName": "319동",
-        "area2": 59,
-        "floorInfo": "15/28",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "입주협의, 집주인거주 깨끗한 집, 상가가까워서 좋아요",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536869549",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 4,000",
-        "buildingName": "310동",
-        "area2": 59,
-        "floorInfo": "7/29",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "시스템에어컨3대   집상태깨끗  생활권편리한 맨앞 로얄동 입주협의",
+        "articleConfirmYmd": "20250708",
+        "articleFeatureDesc": "입주협의. 상가이용좋음. 공원보이는뷰. 집관리상태최상",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1703,46 +1638,7 @@
         "is_new": true
     },
     {
-        "articleNo": "2536896811",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 4,000",
-        "buildingName": "307동",
-        "area2": 59,
-        "floorInfo": "22/29",
-        "direction": "남향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "26년2월 입주가능, 3단지 로얄동,고층뷰",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536852446",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 2,500",
-        "buildingName": "319동",
-        "area2": 59,
-        "floorInfo": "3/28",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "빠른 입주협의, 집상태 좋아요, 근린공원 앞, 버스정류장",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536887404",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 5,000",
-        "buildingName": "322동",
-        "area2": 59,
-        "floorInfo": "22/27",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "A타입.빠른입주가능.사이트인뷰.볕좋은고층.상가이용좋음",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536888870",
+        "articleNo": "2536852161",
         "articleName": "평택센트럴자이3단지",
         "dealOrWarrantPrc": "3억 3,000",
         "buildingName": "319동",
@@ -1750,20 +1646,20 @@
         "floorInfo": "15/28",
         "direction": "남동향",
         "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "입주협의. 상가이용좋음. 공원보이는뷰. 집관리상태최상",
+        "articleFeatureDesc": "입주협의, 집주인거주 깨끗한 집, 상가가까워서 좋아요",
         "premiumPrc": null,
         "is_new": true
     },
     {
-        "articleNo": "2536886483",
+        "articleNo": "2536898721",
         "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 4,000",
-        "buildingName": "307동",
+        "dealOrWarrantPrc": "3억 6,000",
+        "buildingName": "310동",
         "area2": 59,
-        "floorInfo": "22/29",
-        "direction": "남서향",
+        "floorInfo": "28/29",
+        "direction": "남동향",
         "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "월세안고매매합니다.로얄동 26년 2월만기 볕좋은고층.선호타입.",
+        "articleFeatureDesc": "8월이후입주협의가능,주출입구동,투인원에어컨",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1781,6 +1677,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536888870",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 3,000",
+        "buildingName": "319동",
+        "area2": 59,
+        "floorInfo": "15/28",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "입주협의. 상가이용좋음. 공원보이는뷰. 집관리상태최상",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2536896694",
         "articleName": "평택센트럴자이3단지",
         "dealOrWarrantPrc": "3억 4,000",
@@ -1794,41 +1703,132 @@
         "is_new": true
     },
     {
-        "articleNo": "2536684100",
+        "articleNo": "2536896811",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 4,000",
+        "buildingName": "307동",
+        "area2": 59,
+        "floorInfo": "22/29",
+        "direction": "남향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "26년2월 입주가능, 3단지 로얄동,고층뷰",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536965552",
         "articleName": "평택센트럴자이3단지",
         "dealOrWarrantPrc": "3억 5,000",
+        "buildingName": "322동",
+        "area2": 59,
+        "floorInfo": "22/27",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "공실 남서향의 시원한 조망 상가,정류장 인접  중문 탄성",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536887404",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 5,000",
+        "buildingName": "322동",
+        "area2": 59,
+        "floorInfo": "22/27",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "A타입.빠른입주가능.사이트인뷰.볕좋은고층.상가이용좋음",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536908685",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 3,000",
         "buildingName": "319동",
         "area2": 59,
-        "floorInfo": "21/28",
+        "floorInfo": "15/28",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "협의입주  미세방충망 중문 투인원 등 관리굿   뻥뷰",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536852446",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 2,500",
+        "buildingName": "319동",
+        "area2": 59,
+        "floorInfo": "3/28",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "빠른 입주협의, 집상태 좋아요, 근린공원 앞, 버스정류장",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536869549",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 4,000",
+        "buildingName": "310동",
+        "area2": 59,
+        "floorInfo": "7/29",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "시스템에어컨3대   집상태깨끗  생활권편리한 맨앞 로얄동 입주협의",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536945254",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "4억 2,000",
+        "buildingName": "301동",
+        "area2": 59,
+        "floorInfo": "19/23",
+        "direction": "남향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "금빛 자이3단지. 입구동 로얄층",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536887665",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 2,500",
+        "buildingName": "319동",
+        "area2": 59,
+        "floorInfo": "3/28",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "입주협의. 집은 언제든지 볼 수 있음.이쁜조경뷰.상가이용편리.볕좋아요",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536886483",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 4,000",
+        "buildingName": "307동",
+        "area2": 59,
+        "floorInfo": "22/29",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "월세안고매매합니다.로얄동 26년 2월만기 볕좋은고층.선호타입.",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536687793",
+        "articleName": "평택센트럴자이3단지",
+        "dealOrWarrantPrc": "3억 2,500",
+        "buildingName": "319동",
+        "area2": 59,
+        "floorInfo": "3/28",
         "direction": "남동향",
         "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "입주협의.주출입구동.상가이용편리.볕좋은고층.",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536683459",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 5,000",
-        "buildingName": "322동",
-        "area2": 59,
-        "floorInfo": "22/27",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "빠른입주가능.중문.거실실링팬.트인뷰.상가이용좋음.볕좋은고층",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536687763",
-        "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 5,000",
-        "buildingName": "322동",
-        "area2": 59,
-        "floorInfo": "22/27",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "채광좋은 남서향 중문 실링팬 바닥왁싱코팅 컨디션좋은집",
+        "articleFeatureDesc": "입주협의.상가이용편리.이쁜조경뷰.",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1846,15 +1846,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2536687793",
+        "articleNo": "2536687763",
         "articleName": "평택센트럴자이3단지",
-        "dealOrWarrantPrc": "3억 2,500",
-        "buildingName": "319동",
+        "dealOrWarrantPrc": "3억 5,000",
+        "buildingName": "322동",
         "area2": 59,
-        "floorInfo": "3/28",
-        "direction": "남동향",
+        "floorInfo": "22/27",
+        "direction": "남서향",
         "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "입주협의.상가이용편리.이쁜조경뷰.",
+        "articleFeatureDesc": "채광좋은 남서향 중문 실링팬 바닥왁싱코팅 컨디션좋은집",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1898,19 +1898,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2536336567",
-        "articleName": "평택센트럴자이4단지",
-        "dealOrWarrantPrc": "3억 4,500",
-        "buildingName": "406동",
-        "area2": 59,
-        "floorInfo": "24/29",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250706",
-        "articleFeatureDesc": "협의입주 가능, 관리가 잘된 집, 상가이용편리, 대중교통이용편리, 뻥 뷰",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536018375",
         "articleName": "평택센트럴자이4단지",
         "dealOrWarrantPrc": "3억 5,000",
@@ -1920,6 +1907,19 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250704",
         "articleFeatureDesc": "입주협의 시스템에어컨 주방폴리싱타일 중문 식세기 집관리상태최상.",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536336567",
+        "articleName": "평택센트럴자이4단지",
+        "dealOrWarrantPrc": "3억 4,500",
+        "buildingName": "406동",
+        "area2": 59,
+        "floorInfo": "24/29",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250706",
+        "articleFeatureDesc": "협의입주 가능, 관리가 잘된 집, 상가이용편리, 대중교통이용편리, 뻥 뷰",
         "premiumPrc": null,
         "is_new": true
     },
@@ -1937,19 +1937,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2535238123",
-        "articleName": "평택센트럴자이4단지",
-        "dealOrWarrantPrc": "3억 5,000",
-        "buildingName": "406동",
-        "area2": 59,
-        "floorInfo": "22/29",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250701",
-        "articleFeatureDesc": "로얄동. 로얄층. 저렴한 매물. 근린상가 이용 편리. 협의 입주.",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2535783901",
         "articleName": "평택센트럴자이4단지",
         "dealOrWarrantPrc": "3억",
@@ -1959,6 +1946,19 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250703",
         "articleFeatureDesc": "입주협의, 분수단지뷰나옴, 어린이집 인근 , 이사협의",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2535238123",
+        "articleName": "평택센트럴자이4단지",
+        "dealOrWarrantPrc": "3억 5,000",
+        "buildingName": "406동",
+        "area2": 59,
+        "floorInfo": "22/29",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250701",
+        "articleFeatureDesc": "로얄동. 로얄층. 저렴한 매물. 근린상가 이용 편리. 협의 입주.",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2002,19 +2002,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2536336554",
-        "articleName": "평택센트럴자이4단지",
-        "dealOrWarrantPrc": "3억 4,000",
-        "buildingName": "406동",
-        "area2": 59,
-        "floorInfo": "저/29",
-        "direction": "남동향",
-        "articleConfirmYmd": "20250706",
-        "articleFeatureDesc": "협의입주, 어린이집 가까운 동, 초중품아, 상가.대중교통이용편리한 동",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2536346750",
         "articleName": "평택센트럴자이4단지",
         "dealOrWarrantPrc": "3억 6,000",
@@ -2028,15 +2015,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2536277838",
+        "articleNo": "2536336554",
         "articleName": "평택센트럴자이4단지",
-        "dealOrWarrantPrc": "3억 6,000",
+        "dealOrWarrantPrc": "3억 4,000",
         "buildingName": "406동",
         "area2": 59,
-        "floorInfo": "고/29",
+        "floorInfo": "저/29",
         "direction": "남동향",
-        "articleConfirmYmd": "20250705",
-        "articleFeatureDesc": "2in1에어컨, 즉시입주, 저렴한 월세, 시원한 고층뷰",
+        "articleConfirmYmd": "20250706",
+        "articleFeatureDesc": "협의입주, 어린이집 가까운 동, 초중품아, 상가.대중교통이용편리한 동",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2050,6 +2037,19 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250705",
         "articleFeatureDesc": "세안고매매.출입구동.상가이용좋아요.초중품아.",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2536277838",
+        "articleName": "평택센트럴자이4단지",
+        "dealOrWarrantPrc": "3억 6,000",
+        "buildingName": "406동",
+        "area2": 59,
+        "floorInfo": "고/29",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250705",
+        "articleFeatureDesc": "2in1에어컨, 즉시입주, 저렴한 월세, 시원한 고층뷰",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2080,19 +2080,6 @@
         "is_new": true
     },
     {
-        "articleNo": "2535766640",
-        "articleName": "평택센트럴자이4단지",
-        "dealOrWarrantPrc": "3억 5,500",
-        "buildingName": "406동",
-        "area2": 59,
-        "floorInfo": "중/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250703",
-        "articleFeatureDesc": "9월 협의입주, 뷰 좋음, 초중품아, 어린이집.경로당 가까운 동",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
         "articleNo": "2535871230",
         "articleName": "평택센트럴자이4단지",
         "dealOrWarrantPrc": "3억",
@@ -2102,6 +2089,19 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250703",
         "articleFeatureDesc": "협의 입주. 주출입구동. 상가 및 대중교통 이용 편리",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
+        "articleNo": "2535766640",
+        "articleName": "평택센트럴자이4단지",
+        "dealOrWarrantPrc": "3억 5,500",
+        "buildingName": "406동",
+        "area2": 59,
+        "floorInfo": "중/29",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250703",
+        "articleFeatureDesc": "9월 협의입주, 뷰 좋음, 초중품아, 어린이집.경로당 가까운 동",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2158,6 +2158,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536944224",
+        "articleName": "오산역영무파라드(주상복합)",
+        "dealOrWarrantPrc": "3억 1,000",
+        "buildingName": "101동",
+        "area2": 56,
+        "floorInfo": "7/29",
+        "direction": "남향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "2앤원 에어컨 설치, 중문 설치된 아파트",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2536539107",
         "articleName": "오산역영무파라드(주상복합)",
         "dealOrWarrantPrc": "3억 1,000",
@@ -2206,19 +2219,6 @@
         "direction": "서향",
         "articleConfirmYmd": "20250613",
         "articleFeatureDesc": "전세끼고 매매,오산역 도보7분 시스템에어컨2대,경부IC,교통호재많음",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2531133219",
-        "articleName": "오산역영무파라드(주상복합)",
-        "dealOrWarrantPrc": "3억 1,000",
-        "buildingName": "101동",
-        "area2": 56,
-        "floorInfo": "저/29",
-        "direction": "서향",
-        "articleConfirmYmd": "20250610",
-        "articleFeatureDesc": "시스템에어컨 2대 중문",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2418,15 +2418,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2533259511",
+        "articleNo": "2536974575",
         "articleName": "오산역e-편한세상1단지",
         "dealOrWarrantPrc": "4억 2,000",
         "buildingName": "101동",
         "area2": 84,
-        "floorInfo": "중/26",
+        "floorInfo": "13/26",
         "direction": "남동향",
-        "articleConfirmYmd": "20250620",
-        "articleFeatureDesc": "초품아 대단지 생활권 나이스 단지앞 상권 굿 오산역 도보 10분컷",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": null,
         "premiumPrc": null,
         "is_new": true
     },
@@ -2535,6 +2535,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536971743",
+        "articleName": "평택지제역동문굿모닝힐맘시티3단지",
+        "dealOrWarrantPrc": "2억 7,000",
+        "buildingName": "304동",
+        "area2": 59,
+        "floorInfo": "저/26",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "최저급매  예쁜정원뷰 협의입주가능",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2536817000",
         "articleName": "평택지제역동문굿모닝힐맘시티3단지",
         "dealOrWarrantPrc": "2억 7,000",
@@ -2544,19 +2557,6 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250708",
         "articleFeatureDesc": "남동남서집으로 뽀송뽀송환한집 맘편한 저층 시스템에어컨4 협의입주",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2535927870",
-        "articleName": "평택지제역동문굿모닝힐맘시티3단지",
-        "dealOrWarrantPrc": "2억 7,000",
-        "buildingName": "304동",
-        "area2": 59,
-        "floorInfo": "저/26",
-        "direction": "남향",
-        "articleConfirmYmd": "20250703",
-        "articleFeatureDesc": "L 이사협의가능  예쁜단지뷰  사이조망",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2574,15 +2574,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2536262244",
+        "articleNo": "2536972575",
         "articleName": "평택지제역동문굿모닝힐맘시티3단지",
         "dealOrWarrantPrc": "2억 8,000",
         "buildingName": "309동",
         "area2": 59,
         "floorInfo": "3/10",
         "direction": "남동향",
-        "articleConfirmYmd": "20250705",
-        "articleFeatureDesc": "입주협의 막힘없는  공원뷰 주인거주로 컨디션최상  중문",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "급매 주인거주중이라 컨디션최상 막힘없는 뻥뷰",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2600,7 +2600,7 @@
         "is_new": true
     },
     {
-        "articleNo": "2536878397",
+        "articleNo": "2536974069",
         "articleName": "평택지제역동문굿모닝힐맘시티3단지",
         "dealOrWarrantPrc": "2억 8,500",
         "buildingName": "312동",
@@ -2608,7 +2608,7 @@
         "floorInfo": "저/27",
         "direction": "동향",
         "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "전세안고매매,시스템에어컨4대,관리잘된예쁜집",
+        "articleFeatureDesc": "전세승계조건 시스템4대",
         "premiumPrc": null,
         "is_new": true
     },
@@ -2717,6 +2717,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536969124",
+        "articleName": "평택지제역동문굿모닝힐맘시티3단지",
+        "dealOrWarrantPrc": "2억 9,000",
+        "buildingName": "303동",
+        "area2": 59,
+        "floorInfo": "고/27",
+        "direction": "남향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "시스템4대 중문 협의입주 남향하루종일해드는집",
+        "premiumPrc": null,
+        "is_new": true
+    },
+    {
         "articleNo": "2536791364",
         "articleName": "평택지제역동문굿모닝힐맘시티3단지",
         "dealOrWarrantPrc": "2억 9,000",
@@ -2739,19 +2752,6 @@
         "direction": "남동향",
         "articleConfirmYmd": "20250708",
         "articleFeatureDesc": "로열동 로열층 급매물입니다.",
-        "premiumPrc": null,
-        "is_new": true
-    },
-    {
-        "articleNo": "2536721298",
-        "articleName": "평택지제역동문굿모닝힐맘시티3단지",
-        "dealOrWarrantPrc": "2억 9,000",
-        "buildingName": "303동",
-        "area2": 59,
-        "floorInfo": "고/27",
-        "direction": "남향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "로열층로열동 급매물 에어컨4대입니다.",
         "premiumPrc": null,
         "is_new": true
     },
@@ -3562,6 +3562,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536837066",
+        "articleName": "김포북변우미린파크리브",
+        "dealOrWarrantPrc": "4억 9,180",
+        "buildingName": "112동",
+        "area2": 59,
+        "floorInfo": "6/29",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "북변최고. 59a,판상형,탁트인조망권, p500, 초교 가까운동, 초품아",
+        "premiumPrc": "500",
+        "is_new": true
+    },
+    {
         "articleNo": "2536848758",
         "articleName": "김포북변우미린파크리브",
         "dealOrWarrantPrc": "5억 610",
@@ -3588,16 +3601,29 @@
         "is_new": true
     },
     {
-        "articleNo": "2536837066",
+        "articleNo": "2536915216",
         "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "4억 9,180",
+        "dealOrWarrantPrc": "5억 110",
         "buildingName": "112동",
         "area2": 59,
-        "floorInfo": "6/29",
+        "floorInfo": "24/29",
         "direction": "남서향",
         "articleConfirmYmd": "20250709",
-        "articleFeatureDesc": "북변최고. 59a,판상형,탁트인조망권, p500, 초교 가까운동, 초품아",
+        "articleFeatureDesc": "59A타입 뻥뷰 학교가까운 동 확장비. 에어컨 포함 ",
         "premiumPrc": "500",
+        "is_new": true
+    },
+    {
+        "articleNo": "2536920023",
+        "articleName": "김포북변우미린파크리브",
+        "dealOrWarrantPrc": "4억 8,980",
+        "buildingName": "111동",
+        "area2": 59,
+        "floorInfo": "5/21",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250709",
+        "articleFeatureDesc": "북변최고. 59a,판상형.초품아, p300 급매물, 확장비용포함",
+        "premiumPrc": "300",
         "is_new": true
     },
     {
@@ -3627,6 +3653,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2536626712",
+        "articleName": "김포북변우미린파크리브",
+        "dealOrWarrantPrc": "5억 110",
+        "buildingName": "112동",
+        "area2": 59,
+        "floorInfo": "24/29",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250708",
+        "articleFeatureDesc": "북변마이홈,112동고층의뻥뷰,김포초,시립중봉도서관근접",
+        "premiumPrc": "500",
+        "is_new": true
+    },
+    {
         "articleNo": "2536646506",
         "articleName": "김포북변우미린파크리브",
         "dealOrWarrantPrc": "5억 110",
@@ -3640,15 +3679,15 @@
         "is_new": true
     },
     {
-        "articleNo": "2536626712",
+        "articleNo": "2536811327",
         "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 110",
+        "dealOrWarrantPrc": "4억 9,180",
         "buildingName": "112동",
         "area2": 59,
-        "floorInfo": "24/29",
+        "floorInfo": "6/29",
         "direction": "남서향",
         "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "북변마이홈,112동고층의뻥뷰,김포초,시립중봉도서관근접",
+        "articleFeatureDesc": "초급매. 59A 판상형. 막힘 없는 뷰. 확장비 포함가",
         "premiumPrc": "500",
         "is_new": true
     },
@@ -3679,33 +3718,7 @@
         "is_new": true
     },
     {
-        "articleNo": "2536811327",
-        "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "4억 9,180",
-        "buildingName": "112동",
-        "area2": 59,
-        "floorInfo": "6/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250708",
-        "articleFeatureDesc": "초급매. 59A 판상형. 막힘 없는 뷰. 확장비 포함가",
-        "premiumPrc": "500",
-        "is_new": true
-    },
-    {
-        "articleNo": "2536422444",
-        "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "4억 9,180",
-        "buildingName": "112동",
-        "area2": 59,
-        "floorInfo": "6/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "북변수자인부동, 59a 판상형,트인뻥뷰, P500만원,역세권,초품아",
-        "premiumPrc": "500",
-        "is_new": true
-    },
-    {
-        "articleNo": "2536452836",
+        "articleNo": "2536470250",
         "articleName": "김포북변우미린파크리브",
         "dealOrWarrantPrc": "5억 984",
         "buildingName": "112동",
@@ -3713,34 +3726,21 @@
         "floorInfo": "9/29",
         "direction": "남서향",
         "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "o스타o에4, 식세기, 거실,조명,주방특화등옵션부자, 실거주 강추",
+        "articleFeatureDesc": "북변수자인부동, 59a,판상형.뻥뷰,p500 초급매.초품아,확장포함",
         "premiumPrc": "500",
         "is_new": true
     },
     {
-        "articleNo": "2536376985",
+        "articleNo": "2536529461",
         "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 680",
-        "buildingName": "112동",
+        "dealOrWarrantPrc": "5억 2,400",
+        "buildingName": "102동",
         "area2": 59,
-        "floorInfo": "28/29",
+        "floorInfo": "10/29",
         "direction": "남서향",
         "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "초급매. 탑층. 판상형. 김포초 최근접 동. 교육 특화단지",
-        "premiumPrc": "1,500",
-        "is_new": true
-    },
-    {
-        "articleNo": "2536506262",
-        "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 1,900",
-        "buildingName": "103동",
-        "area2": 59,
-        "floorInfo": "26/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "북변최고. 59a, 선호동 고층뷰, 초품아, p2000,에4대,확장포",
-        "premiumPrc": "2,000",
+        "articleFeatureDesc": "N.I.C.E. 북변역 근접 생활권 편리한 로얄동 햇살 좋은 예쁜 단지뷰",
+        "premiumPrc": "2,500",
         "is_new": true
     },
     {
@@ -3770,29 +3770,16 @@
         "is_new": true
     },
     {
-        "articleNo": "2536529461",
+        "articleNo": "2536452836",
         "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 2,400",
-        "buildingName": "102동",
-        "area2": 59,
-        "floorInfo": "10/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "N.I.C.E. 북변역 근접 생활권 편리한 로얄동 햇살 좋은 예쁜 단지뷰",
-        "premiumPrc": "2,500",
-        "is_new": true
-    },
-    {
-        "articleNo": "2536451198",
-        "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 680",
+        "dealOrWarrantPrc": "5억 984",
         "buildingName": "112동",
         "area2": 59,
-        "floorInfo": "28/29",
-        "direction": "남동향",
+        "floorInfo": "9/29",
+        "direction": "남서향",
         "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "STAR. 발코니확장 포함가, 탑층, 시원한 뻥뷰, ",
-        "premiumPrc": "1,500",
+        "articleFeatureDesc": "o스타o에4, 식세기, 거실,조명,주방특화등옵션부자, 실거주 강추",
+        "premiumPrc": "500",
         "is_new": true
     },
     {
@@ -3809,16 +3796,29 @@
         "is_new": true
     },
     {
-        "articleNo": "2536470250",
+        "articleNo": "2536451198",
         "articleName": "김포북변우미린파크리브",
-        "dealOrWarrantPrc": "5억 984",
+        "dealOrWarrantPrc": "5억 680",
         "buildingName": "112동",
         "area2": 59,
-        "floorInfo": "9/29",
+        "floorInfo": "28/29",
+        "direction": "남동향",
+        "articleConfirmYmd": "20250707",
+        "articleFeatureDesc": "STAR. 발코니확장 포함가, 탑층, 시원한 뻥뷰, ",
+        "premiumPrc": "1,500",
+        "is_new": true
+    },
+    {
+        "articleNo": "2536506262",
+        "articleName": "김포북변우미린파크리브",
+        "dealOrWarrantPrc": "5억 1,900",
+        "buildingName": "103동",
+        "area2": 59,
+        "floorInfo": "26/29",
         "direction": "남서향",
         "articleConfirmYmd": "20250707",
-        "articleFeatureDesc": "북변수자인부동, 59a,판상형.뻥뷰,p500 초급매.초품아,확장포함",
-        "premiumPrc": "500",
+        "articleFeatureDesc": "북변최고. 59a, 선호동 고층뷰, 초품아, p2000,에4대,확장포",
+        "premiumPrc": "2,000",
         "is_new": true
     },
     {
@@ -3926,16 +3926,16 @@
         "is_new": true
     },
     {
-        "articleNo": "2533846422",
+        "articleNo": "2533845561",
         "articleName": "양주역푸르지오센터파크",
-        "dealOrWarrantPrc": "3억 8,660",
-        "buildingName": "101동",
+        "dealOrWarrantPrc": "3억 9,620",
+        "buildingName": "107동",
         "area2": 59,
         "floorInfo": "저/29",
-        "direction": "남서향",
+        "direction": "남동향",
         "articleConfirmYmd": "20250623",
-        "articleFeatureDesc": "시에4대.어린이놀이터.이쁜단지조경뷰.",
-        "premiumPrc": "3,000",
+        "articleFeatureDesc": "59A.선호동.시스템에어컨전체.발코니확장",
+        "premiumPrc": "2,500",
         "is_new": true
     },
     {
@@ -3952,16 +3952,16 @@
         "is_new": true
     },
     {
-        "articleNo": "2533845561",
+        "articleNo": "2533846422",
         "articleName": "양주역푸르지오센터파크",
-        "dealOrWarrantPrc": "3억 9,620",
-        "buildingName": "107동",
+        "dealOrWarrantPrc": "3억 8,660",
+        "buildingName": "101동",
         "area2": 59,
         "floorInfo": "저/29",
-        "direction": "남동향",
+        "direction": "남서향",
         "articleConfirmYmd": "20250623",
-        "articleFeatureDesc": "59A.선호동.시스템에어컨전체.발코니확장",
-        "premiumPrc": "2,500",
+        "articleFeatureDesc": "시에4대.어린이놀이터.이쁜단지조경뷰.",
+        "premiumPrc": "3,000",
         "is_new": true
     },
     {
@@ -4030,6 +4030,19 @@
         "is_new": true
     },
     {
+        "articleNo": "2531976228",
+        "articleName": "양주역푸르지오센터파크",
+        "dealOrWarrantPrc": "3억 8,660",
+        "buildingName": "101동",
+        "area2": 59,
+        "floorInfo": "저/29",
+        "direction": "남서향",
+        "articleConfirmYmd": "20250614",
+        "articleFeatureDesc": null,
+        "premiumPrc": "3,000",
+        "is_new": true
+    },
+    {
         "articleNo": "2531978835",
         "articleName": "양주역푸르지오센터파크",
         "dealOrWarrantPrc": "3억 9,825",
@@ -4052,19 +4065,6 @@
         "direction": "남서향",
         "articleConfirmYmd": "20250614",
         "articleFeatureDesc": "I 푸르지오 I 전면동,옵션 많은 모델하우스같은집,트인뷰, P3000",
-        "premiumPrc": "3,000",
-        "is_new": true
-    },
-    {
-        "articleNo": "2531976228",
-        "articleName": "양주역푸르지오센터파크",
-        "dealOrWarrantPrc": "3억 8,660",
-        "buildingName": "101동",
-        "area2": 59,
-        "floorInfo": "저/29",
-        "direction": "남서향",
-        "articleConfirmYmd": "20250614",
-        "articleFeatureDesc": null,
         "premiumPrc": "3,000",
         "is_new": true
     },
